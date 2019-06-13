@@ -1,6 +1,7 @@
 baseURL = "https://www.example.org/"
 languageCode = "en-us"
 theme = "aafu"
+publishDir = "docs"
 
 [params]
     title = "Jorge Yupanqui"
