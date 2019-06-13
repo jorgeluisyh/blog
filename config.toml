@@ -1,3 +1,4 @@
+#baseURL = "example"
 baseURL = "https://jorgeluisyh.github.io/blog/"
 languageCode = "en-us"
 theme = "aafu"
@@ -85,8 +86,8 @@ publishDir = "docs"
         item = "education"
     #[[params.showInAccordion]]
     #    item = "publication"
-    [[params.showInAccordion]]
-        item = "project"
+    #[[params.showInAccordion]]
+    #    item = "project"
     [[params.showInAccordion]]
         item = "skill"
     [[params.showInAccordion]]
@@ -103,37 +104,51 @@ publishDir = "docs"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
+            position = "GIS programmer"
+            dates = "2019 March- *Present*"
+            company = "INEI"
+            link = "https://www.inei.gob.pe/"
+            details = "Development of automation tools and python add-ins for cartographic tasks optimization, GIS geodatabases management, and analysis of geographic data in order to obtain new important variables"
+            #place = "*Lima, Perú*"
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
-            link = "#"
-            company = "Company Name"
+            position = "GIS programmer"
+            dates = "2018 June- 2018 December"
+            link = "http://www.ingemmet.gob.pe/"
+            company = "INGEMMET"
+            details = "Creation and maintenance of Geographic databases,Development of mapping automated tools, Design and development of user guides for geoprocessing tools"
+        [[params.experience.list]]
+            position = "GIS specialist"
+            dates = "2016 April - 2018 June"
+            link = "https://www.inei.gob.pe/"
+            company = "INEI"
+            details = "Digitalization of physical geographic information, management of the database corresponding to the National census of police stations, Development of geoprocessing tools, made using python. Manipulate, extract, locate and analyze geographic data to design urban maps"
+        [[params.experience.list]]
+            position = "GIS technician"
+            dates = "2016 April - 2018 June"
+            link = "http://www.cidhma.org/"
+            company = "CIDHMA Ingenieros"
 
     # Education section
     [params.education]
         title = "Education"
         icon = "fas fa-graduation-cap"
 
+        #[[params.education.list]]
+        #    degree = "Ph.D. in Subject"
+        #    college = "University of State-City"
+        #    dates = "2013 - 2018"
+        #    thesis_title = "Effect of humans on other humans: a study of human behavior."
+        #    thesis_link = "#"
+        #[[params.education.list]]
+        #    degree = "M.S. in Subject"
+        #    college = "University of State-City"
+        #    dates = "2013 - 2018"
+        #    thesis_title = "Effect of humans on other humans: a study of human behavior."
+        #    thesis_link = "#"
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
-        [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "B.S. in Geographic Enginnering"
+            college = "Universidad Nacional Mayor de San Marcos"
+            dates = "2010 - 2015"
 
     # Publication section
     [params.publication]
@@ -206,6 +221,8 @@ publishDir = "docs"
         [[params.hobby.list]]		
             hobby = "Watching series"
         [[params.hobby.list]]		
-            hobby = "Treaking"
+            hobby = "Trekking"
         [[params.hobby.list]]     
             hobby = "Traveling"
+        [[params.hobby.list]]     
+            hobby = "Playing Videogames"
