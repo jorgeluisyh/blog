@@ -2,6 +2,7 @@
 baseURL = "https://jorgeluisyh.github.io/blog/"
 languageCode = "en-us"
 theme = "aafu"
+googleAnalytics = "UA-156267801-1"
 publishDir = "docs"
 
 [params]
