@@ -27,7 +27,7 @@ publishDir = "docs"
     [params.profile]
         name = "Jorge L. Yupanqui H."
         tagline = "Geographic Engineer"
-        location = "Lima, Perú"
+        location = "Lima, Peru"
         photo = "profile.jpg"
 
     # Section for links to social websites
