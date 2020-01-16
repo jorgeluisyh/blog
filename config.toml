@@ -105,7 +105,7 @@ publishDir = "docs"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "GIS programmer"
+            position = "GIS analyst"
             dates = "2019 March- *Present*"
             company = "INEI"
             link = "https://www.inei.gob.pe/"
