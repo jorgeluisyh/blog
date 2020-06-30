@@ -104,9 +104,16 @@ publishDir = "docs"
         title = "Experiences"
         icon = "fas fa-briefcase"
 
+
+        [[params.experience.list]]
+            position = "GIS specialist"
+            dates = "2020 January - *Present*"
+            link = "http://www.ingemmet.gob.pe/"
+            company = "INGEMMET"
+            details = "Development of automation tools for mining cadastre processes"
         [[params.experience.list]]
             position = "GIS analyst"
-            dates = "2019 March- *Present*"
+            dates = "2019 March- 2019 December"
             company = "INEI"
             link = "https://www.inei.gob.pe/"
             details = "Development of automation tools and python add-ins for cartographic tasks optimization, GIS geodatabases management, and analysis of geographic data in order to obtain new important variables"
@@ -125,7 +132,7 @@ publishDir = "docs"
             details = "Digitalization of physical geographic information, management of the database corresponding to the National census of police stations, Development of geoprocessing tools, made using python. Manipulate, extract, locate and analyze geographic data to design urban maps"
         [[params.experience.list]]
             position = "GIS technician"
-            dates = "2016 April - 2018 June"
+            dates = "2015 April - 2016 March"
             link = "http://www.cidhma.org/"
             company = "CIDHMA Ingenieros"
 
